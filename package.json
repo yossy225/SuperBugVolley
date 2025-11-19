@@ -1,0 +1,5 @@
+{
+    "name": "SuperBugVolley",
+    "main": "electron-main.js",
+    "version": "2.2.0"
+}

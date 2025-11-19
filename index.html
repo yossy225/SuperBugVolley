@@ -283,6 +283,8 @@
     async function loadExt() {
 
         console.log("[Init] SuperBugVolley Hybrid Firebase + LocalStorage (Extension Mode)");
+        setScratchVar("Official_key", "SBV1326");
+
 
         // ===== Firebase 読み込み =====
         const { initializeApp } = await import("https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js");
@@ -321,6 +323,7 @@
         }
 
         setScratchVar("Firebase_ready", 0);
+
 
         const localKeys = [
             "Player_rank", "Player_number", "Player_name", "Player_surve",
